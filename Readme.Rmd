@@ -4,7 +4,7 @@ author: "AT"
 date: "20 septembre 2020"
 output: html_document
 ---
-# Cleaning Data Final project
+# Cleaning Data Final project 1st week
 
 ##Objective
 The purpose of this project is to generate four png files according to the coursera 1st week assignment guideline based on the data from the UC Irvine Machine Learning Repository, Electric power consumption dataset.
