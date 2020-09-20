@@ -1,0 +1,48 @@
+---
+title: "Readme"
+author: "AT"
+date: "20 septembre 2020"
+output: html_document
+---
+# Cleaning Data Final project
+
+##Objective
+The purpose of this project is to generate four png files according to the coursera 1st week assignment guideline based on the data from the UC Irvine Machine Learning Repository, Electric power consumption dataset.
+
+## Summary
+This file is intended to review the main process for the creation of four png files and its r script.
+
+##Contents
+This repository contains the followinf documents:
+
+* Readme.rmd
+* Projec Week 1.R
+* household_power_consumption.txt
+* Four plots in png format
+
+##Data
+This assignment uses data from the UC Irvine Machine Learning Repository, a popular repository for machine learning datasets. In particular, we will be using the “Individual household electric power consumption Data Set”. This data is automatic download it with the script run_analysis.R.
+FIle URl: http://archive.ics.uci.edu/ml/
+
+
+##Descrption of each file
+
+* Readme.rmd: Overview of the process for the creation of the four png files.
+
+* household_power_consumption.txt: Final filtered set created with the script run_analysis.R. This script is intended to filtrate the variables from the days  2007-02-01 & 2007-02-02.
+
+*  Projec Week 1.R: The R script obtains four png plots (width=480 & height=480).
+
+0.1 Check if all libraries are installed  
+**NOTE**: I have to include this step because some people don't have the all the libraries installed and can't run the script.  
+0.2 Read libraries  
+Check all the libraries are set to run the script  
+0.3 Check if data set is already downloaded in the current working directory and download it if is not available.  
+0.4 Extract information (only 2007-02-01 & 2007-02-02)  
+1.0 Create histogram plot  
+2.0 Create XY graph  
+3.0 Create 3 lines (sub_metering) graph  
+4.0 Create mosaic graph  
+
+#Outcome
+Four png graphs with the name plot1, plot2, plot3 and plot4.
